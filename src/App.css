@@ -1,0 +1,70 @@
+.container {
+  max-width: 100%;
+}
+#navbar {
+  text-align: right;
+  display: block;
+}
+.nav--item > h3 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  padding: 1rem;
+}
+.main-images {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.left-col {
+  width: 60%;
+  height: 150vh;
+}
+
+.right-col {
+  width: 25%;
+  height: 25vh;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.circle-uploads {
+  height: 58px;
+  width: 75px;
+  font-size: 1rem;
+  color: #fff;
+  padding-top: 1rem;
+  background: green;
+  border-radius: 50%;
+  position: relative;
+  top: -523px;
+  text-align: center;
+  left: 564px;
+  z-index: 9999;
+}
+
+.tag-button {
+  position: absolute;
+  top: 256px;
+  left: -272px;
+}
+
+.heart-icon {
+  width: 30px;
+  height: auto;
+  position: relative;
+  left: -533px;
+  top: -36px;
+}

@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Id": "http referer policy example",
+    "Statement": [
+        {
+            "Sid": "Allow http request",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:PutObject",
+                "s3:PutObjectAcl",
+                "s3:GetObject",
+                "s3:GetObjectAcl",
+                "s3:DeleteObject"
+            ],
+            "Resource": "arn:aws:s3:::tempimages2020/*",
+            "Condition": {
+                "StringLike": {
+                    "aws:Referer": "http://localhost:3000"
+                }
+            }
+        }
+    ]
+}
