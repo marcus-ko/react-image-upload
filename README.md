@@ -37,6 +37,7 @@ And here:
 REACT_APP_ACCESS_ID='EXAMPLEACCESSID'
 REACT_APP_SECRET_KEY='exampleSecretKey010101'
 ```
+This file goes in the src folder.
 
 ### Notes
 
